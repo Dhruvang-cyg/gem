@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-13 17:42:37.678608",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_description_column",
+  "product_name",
+  "brand",
+  "model",
+  "section_break_zaco",
+  "ordered_quantity",
+  "gem_item_table_unit",
+  "gem_item_table_unit_price_inr",
+  "price_inclusive_of_all_duties_and_taxes_inr",
+  "section_break_pcns",
+  "delivery_start_after",
+  "delivery_completed_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_description_column",
+   "fieldtype": "Column Break",
+   "label": "Item Description"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "default": "CYGNET",
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "section_break_zaco",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ordered_quantity",
+   "fieldtype": "Int",
+   "label": "Ordered Quantity"
+  },
+  {
+   "fieldname": "price_inclusive_of_all_duties_and_taxes_inr",
+   "fieldtype": "Currency",
+   "label": "Price (inclusive of all Duties and Taxes INR)"
+  },
+  {
+   "fieldname": "gem_item_table_unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "gem_item_table_unit_price_inr",
+   "fieldtype": "Currency",
+   "label": "Unit Price (INR)"
+  },
+  {
+   "fieldname": "section_break_pcns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "delivery_start_after",
+   "fieldtype": "Date",
+   "label": "Delivery Start After"
+  },
+  {
+   "fieldname": "delivery_completed_by",
+   "fieldtype": "Date",
+   "label": "Delivery Completed By"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-13 18:22:32.873284",
+ "modified_by": "Administrator",
+ "module": "Gem",
+ "name": "Gem Item Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

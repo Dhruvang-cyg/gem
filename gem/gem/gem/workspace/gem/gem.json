@@ -1,0 +1,59 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"GT6BRWBxJW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Government E Market Place</span>\",\"col\":12}},{\"id\":\"mFwMZTroX6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DUE TODAY\",\"col\":3}},{\"id\":\"WlsglX2qJz\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DUE TOMORROW\",\"col\":3}},{\"id\":\"LMlN_o2ptg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DUE THIS MONTH\",\"col\":3}},{\"id\":\"mGShN59-P1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Due this Year\",\"col\":3}},{\"id\":\"bbZmb-zJS6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gem Orders\",\"col\":12}},{\"id\":\"0rQPdVmbmA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending\",\"col\":3}}]",
+ "creation": "2024-08-13 12:13:52.503543",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "GeM",
+ "links": [],
+ "modified": "2025-03-03 12:55:01.495753",
+ "modified_by": "dhruvang@cygnetmeditech.com",
+ "module": "Gem",
+ "name": "GeM",
+ "number_cards": [
+  {
+   "label": "Pending",
+   "number_card_name": "Status Pending"
+  },
+  {
+   "label": "DUE TODAY",
+   "number_card_name": "Gem Order Due Today"
+  },
+  {
+   "label": "DUE TOMORROW",
+   "number_card_name": "Gem Order Due Tomorrow"
+  },
+  {
+   "label": "DUE THIS MONTH",
+   "number_card_name": "Gem Order Due This Month"
+  },
+  {
+   "label": "Due this Year",
+   "number_card_name": "Gem Order Due This Year"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 22.1,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gem Orders",
+   "link_to": "Gem Orders",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "GeM"
+}
